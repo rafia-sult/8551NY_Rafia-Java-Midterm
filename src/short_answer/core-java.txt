@@ -1,10 +1,11 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 What is a programming language?
-Answer:
+Answer: A programming language is used to code software applications by giving instructions for a computer to perform an action
 
 What is a JDK composed of? Define each components?
-Answer:
+Answer: Java Development Kit (JDK) is composed of everything that a computer needs to compile and run Java applications. Exactly the following:
+        -The compiler: It compiles the source code (.java) to bytecode (.class).
 
 What is an IDE?
 Answer:
