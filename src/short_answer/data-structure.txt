@@ -1,70 +1,106 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 Why do we need data structure?
-Answer: Data structure is a collection of data for retrieving and storing data.
+Answer: We need data structure to organize and store data efficiently.
 
 What are the various operations that can be performed on different data structures?
-Answer:
+Answer: Insertion, deletion, traversal, searching, sorting.
+- Insertion: Add a new data item in the given collection of data items.
+- Deletion: Delete an existing data item from the given collection of data items.
+- Traversal: Access each data item exactly once so that it can be processed.
+- Searching: Find out the location of the data item if it exists in the given collection of data items.
+- Sorting: Arranging the data items in some order (ascending/descending).
 
 When would we use data structures in the real world?
-Answer:
+Answer: We would use data structures in real world when creating an application. We need to access, manage or update data.
 
 What is an Array?
-Answer:
+Answer: Arrays are used to store multiple values in a single variable, instead of declaring separate variables for
+each value.
 
 What is the difference between Array and ArrayList?
-Answer:
+Answer: An array is a basic functionality provided by Java, whereas ArrayList is a class of Java Collections framework.
 
 What is a LinkedList?
-Answer:
+Answer: A linked list is an ordered collection that contains many objects of the same type.
 
 How is an Array different from LinkedList?
-Answer:
+Answer: An array is a collection of elements of a similar data type whereas a linked list is an ordered collection that
+contains many objects of the same type. Array elements store in a contiguous memory location. Linked list elements can
+be stored anywhere in the memory or randomly stored.
 
 What is a Queue?
-Answer:
+Answer: Queue is a collection of ordered elements (or objects) that performs insert and remove operation. Queue follows
+the principle of FIFO (First In First Out). Queue inserts elements at the end of the queue and removes from the
+beginning of the queue.
 
 What is a Stack (referring to data structures)?
-Answer:
+Answer: Stack is a linear data structure which follows a particular order in which the operations are performed.
+The order may be LIFO(Last In First Out) or FILO(First In Last Out).
 
 What is FIFO and LIFO?
-Answer:
+Answer: FIFO stands for First-In-First-Out and LIFO stands for Last-In-First-Out.
 
 Explain Big O Notation?
-Answer:
+Answer: Big O Notation is a way to measure an algorithm’s efficiency. It measures the time it takes to run your function
+as the input grows.
 
 What is the best case to search an element from an array?
-Answer:
+Answer: The best case complexity is O(1) when element is first or last element in the array (sequential search).
 
 What is the worst case to search an element from an array?
-Answer:
+Answer: The worst-case time complexity is O(log N).
 
 Describe what a tree data structure is?
-Answer:
+Answer: A tree is a hierarchical data structure defined as a collection of nodes. Each node in the tree can be connected
+to many children (depending on the type of tree), but must be connected to exactly one parent, except for the root node,
+which has no parent.
 
 Describe what a graph data structure is?
-Answer:
+Answer: A graph is a non-linear kind of data structure made up of nodes and edges.
 
 What is the difference between the HashTable and HashMap?
-Answer:
+Answer: HashMap is non-synchronized whereas Hashtable is synchronized, which means Hashtable is thread-safe and can be
+shared between multiple threads but HashMap can not be shared between multiple threads without proper synchronization.
+HashMap allows one null key and multiple null values whereas Hashtable doesn’t allow any null key or value.
 
 How do HashMaps work in Java? How do they store values, and when are they useful?
-Answer:
+Answer: HashMap in Java works on hashing principles. It is a data structure that allows us to store object and retrieve
+it in constant time O(1) provided we know the key. In hashing, hash functions are used to link keys and values in HashMap.
 
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
-Answer:
+Answer: ArrayIndexOutOfBoundsException is one of the most common error in java. It occurs when we are trying to access
+any item of an array at an index which is not present or may be negative or exceed the size in the array.
 
 What are the different ways of copying an array into another array?
-Answer:
+Answer: Some of the different ways of copying an array into another array are:
+- Manually: manually copy elements one by one.
+- Arrays.copyOf(): this method could be used to directly copy one array to another array.
+- System.arraycopy(): another method that directly copy one array to another array.
+- Object.clone(): this clone method could also be used to copy an array.
+
 
 What is DFS and BFS?
-Answer:
+Answer: DFS stands for Depth First Search and BFS stands for Breadth First Search. DFS uses stack data structure and
+BFS uses queue structure.
 
 What is Recursion?
-Answer:
+Answer: Recursion is a method that calls itself.
 
 What are linear and non-linear data Structures?
-Answer:
+Answer: Linear data structures arranges the data items in an orderly manner where the elements are attached adjacently.
+Non-linear data structures arranges the data in sorted order, creating a relationship among the data elements.
 
 Outline different sorting algorithms and their time complexities:
+Answer: The time complexity of an algorithm describes the amount of time an algorithm takes to run the input.
+Bubble sorting: Time complexity --> Worse case: O(n2), Average case: O(n2), Best case: O(n)
+Selection Sort: Time complexity --> Worse case: O(n2), Average case: O(n2), Best case: O(n2)
+Insertion Sort: Time complexity --> Worse case: O(n2), Average case: O(n2), Best case: O(n)
+Merge Sort: Time complexity --> Worse case: O(n log n), Average case: O(n log n), Best case: O(n log n)
+Quicksort: Time complexity --> Worse case: O(n2), Average case: O(n log n), Best case: O(n log n)
+Heap Sort: Time complexity --> Worse case: O(n log n), Average case: O(n log n), Best case: O(n log n)
+Counting Sort: Time complexity --> Worse case: O(n + k), Average case: O(n + k), Best case: O(n + k)
+Radix Sort: Time complexity --> Worse case: O(n * k), Average case: O(n * k), Best case: O(n * k)
+Bucket Sort: Time complexity --> Worse case: O(n2), Average case: O(n + k), Best case: O(n + k)
+
 
