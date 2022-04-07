@@ -1,7 +1,7 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 Why do we need data structure?
-Answer:
+Answer: Data structure is a collection of data for retrieving and storing data.
 
 What are the various operations that can be performed on different data structures?
 Answer:
