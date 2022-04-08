@@ -4,10 +4,11 @@ import java.util.HashMap;
 
 public class CollectionView {
 
-    /** INSTRUCTIONS
-     *
+    /**
+     * INSTRUCTIONS
+     * <p>
      * A map is given to you below, with some data inserted into it.
-     *
+     * <p>
      * Retrieve the Collection view of the values present in map
      */
 
@@ -22,9 +23,9 @@ public class CollectionView {
         map.put(6, "Seattle");
 
 
-    // use the value method to retrieve the values present in map
+        // use the value method to retrieve the values present in map
         System.out.println(map.values());
-        }
+    }
 
 }
 

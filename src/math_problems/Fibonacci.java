@@ -2,14 +2,14 @@ package math_problems;
 
 public class Fibonacci {
 
-    /** INSTRUCTIONS
-     *
+    /**
+     * INSTRUCTIONS
+     * <p>
      * Write a method that will print or return at least 40 Fibonacci number
      * e.g. - 0,1,1,2,3,5,8,13
      **/
 
-    static int fibonacciNumber(int n)
-    {
+    static int fibonacciNumber(int n) {
         if (n <= 1)
             return n;
 
@@ -20,8 +20,7 @@ public class Fibonacci {
 
     // Driver Code
     public static void
-    main(String args[])
-    {
+    main(String args[]) {
         // Given Number N
         int N = 40;
 

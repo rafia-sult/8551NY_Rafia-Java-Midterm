@@ -5,17 +5,18 @@ import java.util.ArrayList;
 public class UseArrayList {
 
 
-    /** INSTRUCTIONS
-     *
+    /**
+     * INSTRUCTIONS
+     * <p>
      * Demonstrate how to use an ArrayList that includes using the add, peek, remove & retrieve methods.
      * Use For-Each loop and While-loop with Iterator to retrieve the data.
-     *
+     * <p>
      * Store and retrieve the data from/to a database table.
      */
 
     public static void main(String[] args) {
         // creating an ArrayList
-        String [] studentName = new String[4];
+        String[] studentName = new String[4];
 //        studentName [0] = "Ellen Parsons";
 //        studentName [1] = "Jacob May";
 //        studentName [2] = "Chelsea Harmon";

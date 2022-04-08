@@ -4,12 +4,11 @@ import java.util.ArrayList;
 
 public class FindLowestDifference {
 
-    /** INSTRUCTIONS
+    /**
+     * INSTRUCTIONS
      * Write a method to return the lowest number, that is not shared between the 2 arrays below
      * HINT: The lowest number that isn't shared between these arrays is 1
      */
-
-
 
 
     public static void main(String[] args) {
@@ -19,13 +18,10 @@ public class FindLowestDifference {
         int[] array2 = {18, 25, 41, 47, 17, 36, 14, 19, -15};
 
 
-
-
     }
 
 
-
-    }
+}
 
 
 

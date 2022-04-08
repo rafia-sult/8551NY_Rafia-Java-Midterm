@@ -2,6 +2,7 @@ package data_structures;
 
 import codelab.Student;
 import databases.SharedStepsDatabase;
+
 import java.util.*;
 import java.io.*;
 import java.io.BufferedReader;
@@ -28,7 +29,7 @@ public class DataReader {
      * Use For-Each & While-loop with Iterator to retrieve/print data.
      **/
 
-    public static void main(String args []) throws IOException {
+    public static void main(String args[]) throws IOException {
         String textFilePath = System.getProperty("user.dir") + "/src/data_structures/data/self-driving-car.txt";
     }
 
