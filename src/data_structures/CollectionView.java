@@ -21,6 +21,13 @@ public class CollectionView {
         map.put(5, "San Jose");
         map.put(6, "Seattle");
 
-    }
+
+    // use the value method to retrieve the values present in map
+        System.out.println(map.values());
+        }
 
 }
+
+
+
+
