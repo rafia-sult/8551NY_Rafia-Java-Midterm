@@ -1,5 +1,6 @@
 package data_structures;
 
+import codelab.Student;
 import databases.SharedStepsDatabase;
 import java.util.*;
 import java.io.*;
@@ -29,35 +30,6 @@ public class DataReader {
 
     public static void main(String args []) throws IOException {
         String textFilePath = System.getProperty("user.dir") + "/src/data_structures/data/self-driving-car.txt";
-
-        BufferedReader objReader = null;
-        try {
-            String line;
-
-            objReader = new BufferedReader(new FileReader("textFilePath"));
-
-            while ((line = objReader.readLine()) != null) {
-
-                System.out.println(line);
-            }
-
-        } catch (IOException e) {
-
-            e.printStackTrace();
-
-        } finally {
-
-            try {
-                if (objReader != null)
-                    objReader.close();
-            } catch (IOException ex) {
-                ex.printStackTrace();
-            }
-
-
-        }
-
     }
+
 }
-
-
