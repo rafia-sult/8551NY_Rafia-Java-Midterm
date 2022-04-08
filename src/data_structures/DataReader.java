@@ -1,5 +1,13 @@
 package data_structures;
 
+import databases.SharedStepsDatabase;
+import java.util.*;
+import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.sql.SQLException;
+
 public class DataReader {
 
     /**
@@ -19,8 +27,36 @@ public class DataReader {
      * Use For-Each & While-loop with Iterator to retrieve/print data.
      **/
 
-    public static void main(String[] args) {
+    public static void main(String args []) throws IOException {
         String textFilePath = System.getProperty("user.dir") + "/src/data_structures/data/self-driving-car.txt";
+
+        BufferedReader objReader = null;
+        try {
+            String line;
+
+            objReader = new BufferedReader(new FileReader("textFilePath"));
+
+            while ((line = objReader.readLine()) != null) {
+
+                System.out.println(line);
+            }
+
+        } catch (IOException e) {
+
+            e.printStackTrace();
+
+        } finally {
+
+            try {
+                if (objReader != null)
+                    objReader.close();
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+
+
+        }
+
     }
 }
 

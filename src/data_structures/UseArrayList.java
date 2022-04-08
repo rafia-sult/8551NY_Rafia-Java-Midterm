@@ -16,12 +16,12 @@ public class UseArrayList {
     public static void main(String[] args) {
         // creating an ArrayList
         String [] studentName = new String[4];
-        studentName [0] = "Ellen Parsons";
-        studentName [1] = "Jacob May";
-        studentName [2] = "Chelsea Harmon";
-        studentName [3] = "Jeannette Frank";
+//        studentName [0] = "Ellen Parsons";
+//        studentName [1] = "Jacob May";
+//        studentName [2] = "Chelsea Harmon";
+//        studentName [3] = "Jeannette Frank";
 
-        System.out.println(studentName[2]);
+        // System.out.println(studentName[2]);
 
 
         // demonstrating add on ArrayList
@@ -35,7 +35,7 @@ public class UseArrayList {
 
         // demonstrating remove on ArrayList
 
-        studentNameList.remove("Brett Maxwell");
+        studentNameList.remove("Eddie Spencer");
 
         System.out.println(studentNameList);
 
