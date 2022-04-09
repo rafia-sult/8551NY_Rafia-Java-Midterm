@@ -12,7 +12,7 @@ public class Factorial {
      */
 
     // using recursive
-    static int factorial(int n) {
+    public static int factorial(int n) {
         if (n != 0)
             return n * factorial(n - 1);
         else
@@ -20,20 +20,28 @@ public class Factorial {
     }
 
     public static void main(String[] args) {
-        int number = 5, result;
+        int number = 4, result;
         result = factorial(number);
-        System.out.println("Factorial of  " + number + " is: " + result);
+        System.out.println("Recursive Factorial of  " + number + " is: " + result);
+        System.out.println("Iteration Factorial of " + 5 + " is: " + iteration(5));
     }
 
     // another way using iteration
 
-//        int i, factorial = 1;
-//        int num1 = 4;
-//        for (i = 1; i <= num1; i++) {
-//            factorial = factorial * i;
-//        }
-//        System.out.println("Factorial of " + num1 + " is: " + factorial);
-//
-//
-//    }
+
+    public static int iteration(int num) {
+        int x = 0;
+        if (num <= 1) {
+            return num;
+        }
+
+        for (int y = num - 1; y > 0; y--) {
+            if (x > 0) {
+                x = x * y;
+            } else if (x == 0) {
+                x += num * y;
+            }
+        }
+        return x;
+    }
 }

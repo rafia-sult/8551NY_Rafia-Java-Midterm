@@ -30,7 +30,32 @@ public class DataReader {
      **/
 
     public static void main(String args[]) throws IOException {
-        String textFilePath = System.getProperty("user.dir") + "/src/data_structures/data/self-driving-car.txt";
+        String textFilePath = System.getProperty("user.dir") + "\\src\\data_structures\\data\\self-driving-car.txt";
+
+
+        String row;
+        String csvSplitBy = ",";
+        BufferedReader br;
+        List<Student> roster = new ArrayList<>();
+
+        try {
+            br = new BufferedReader(new FileReader(textFilePath));
+            int lineNumber = 0;
+            while ((row = br.readLine()) != null) {
+                if (lineNumber == 0) {
+                    lineNumber++;
+                    continue;
+                }
+                String[] rowArray = row.split(csvSplitBy);
+                roster.add(new Student(rowArray[5].replace("\"", ""), rowArray[4].replace("\"",
+                        ""), Integer.parseInt(rowArray[10])));
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
     }
 
-}
+
+    }
