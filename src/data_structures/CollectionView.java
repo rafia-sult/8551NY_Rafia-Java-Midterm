@@ -24,10 +24,16 @@ public class CollectionView {
 
 
         // use the value method to retrieve the values present in map
-        System.out.println(map.values());
+        for (Integer i : map.keySet()) {
+            System.out.println( i + ": " + map.get(i));
+
+        }
+
     }
 
 }
+
+
 
 
 
