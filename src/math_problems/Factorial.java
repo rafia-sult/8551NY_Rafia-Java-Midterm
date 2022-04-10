@@ -20,9 +20,9 @@ public class Factorial {
     }
 
     public static void main(String[] args) {
-        int number = 4, result;
-        result = factorial(number);
-        System.out.println("Recursive Factorial of  " + number + " is: " + result);
+        int num1 = 5, recursiveResult;
+        recursiveResult = factorial(num1);
+        System.out.println("Recursive Factorial of  " + num1 + " is: " + recursiveResult);
         System.out.println("Iteration Factorial of " + 5 + " is: " + iteration(5));
     }
 

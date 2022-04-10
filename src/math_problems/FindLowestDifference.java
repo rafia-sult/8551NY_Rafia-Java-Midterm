@@ -1,6 +1,6 @@
 package math_problems;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 
 public class FindLowestDifference {
 
@@ -17,11 +17,22 @@ public class FindLowestDifference {
         int[] array1 = {30, 12, 5, 9, 2, 20, 33, 1, -15};
         int[] array2 = {18, 25, 41, 47, 17, 36, 14, 19, -15};
 
+        Arrays.sort(array1);
+        Arrays.sort(array2);
 
+
+
+        int [] lowestUncommonNumberArray1 = new int [array1.length];
+        int [] lowestUncommonNumberArray2 = new int [array2.length];
+
+
+
+        }
     }
 
 
-}
+
+
 
 
 
